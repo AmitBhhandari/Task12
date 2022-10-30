@@ -27,7 +27,7 @@ class Student{
     }
     eligibleForPlacements(minPlacementAge) {
         return  (minMarks) => {
-            if (this.marks > minMarks && this.age > minPlacementAge) {
+            if (this.board_marks > minMarks && this.age > minPlacementAge) {
                 console.log(this.name + " is ready for placements")
             } 
             else {
